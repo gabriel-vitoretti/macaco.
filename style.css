@@ -1,28 +1,70 @@
-   body {
-       font-family: Arial, sans-serif;
-       background-color: #f0f0f0;
-       color: #333;
-       text-align: center;
-       margin: 0;
-       padding: 0;
-   }
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef; /* Cor de fundo suave */
+    color: #343a40; /* Cor do texto */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 
-   header {
-       background-color: #4CAF50;
-       color: white;
-       padding: 20px;
-   }
+header {
+    background-color: #007bff; /* Azul vibrante */
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para o cabeçalho */
+}
 
-   main {
-       padding: 20px;
-   }
+h1 {
+    font-size: 2.5em; /* Tamanho maior para o título */
+    margin: 0;
+}
 
-   footer {
-       background-color: #333;
-       color: white;
-       position: fixed;
-       bottom: 0;
-       width: 100%;
-       padding: 10px;
-   }
-   
+main {
+    padding: 20px;
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: 20px auto; /* Centraliza o conteúdo */
+    background-color: white; /* Fundo branco para o conteúdo */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para o conteúdo */
+}
+
+h2 {
+    color: #007bff; /* Azul para subtítulos */
+}
+
+h3 {
+    margin-top: 20px; /* Espaçamento acima dos subtítulos */
+}
+
+ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove padding */
+}
+
+ul li {
+    background-color: #f8f9fa; /* Fundo claro para itens da lista */
+    margin: 10px 0; /* Espaçamento entre itens */
+    padding: 10px; /* Padding interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para itens da lista */
+}
+
+footer {
+    background-color: #343a40; /* Cor escura para o rodapé */
+    color: white;
+    position: relative; /* Muda a posição para relativa */
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Sombra para o rodapé */
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Tamanho menor em telas pequenas */
+    }
+
+    main {
+        padding: 10px; /* Menos padding em telas pequenas */
+    }
+}
